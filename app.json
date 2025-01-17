@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mok-pos",
-    "slug": "mok-pos",
+    "name": "citi-trans",
+    "slug": "citi-trans",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ihsansanhas.cititrans"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "22fc3f04-2a2b-42e9-bfa7-3c52f1989e8e"
+      }
     }
   }
 }
